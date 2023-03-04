@@ -3,13 +3,16 @@ using namespace std;
 
 const int num = 20;
 
+// This function multiplies the four numbers in a row/column/diagonal
 void multiply(long long &maxNum, int array[][num], int bArray[], int x, int y,
               int dx, int dy) {
   long long tempNum = 1;
+  // Loop through the four numbers in the given direction, making sure to stay within the bounds of the grid
   for (int i = 0; i < 4 && x < num && x >= 0 && y < num && y >= 0;
        i++, x += dx, y += dy)
     tempNum *= array[x][y];
 
+  // If the product of the four numbers is greater than the current maximum product, update the maximum product and the array of numbers that produced it
   if (maxNum < tempNum) {
     maxNum = tempNum;
     bArray[0] = array[x - dx][y - dy];
@@ -48,11 +51,16 @@ int lProduct() {
 
   long long maxNum = 1;
   int bArray[4];
+  // loop through each element of the array and multiply it by its neighbors in different directions
   for (int i = 0; i < num; i++) {
     for (int j = 0; j < num; j++) {
+      // multiply the current element with the element to its right and store the product in bArray[0]
       multiply(maxNum, array, bArray, i, j, 1, 0);
+      // multiply the current element with the element below it and store the product in bArray[1]
       multiply(maxNum, array, bArray, i, j, 0, 1);
+      // multiply the current element with the element to its lower-right diagonal and store the product in bArray[2]
       multiply(maxNum, array, bArray, i, j, 1, 1);
+      // multiply the current element with the element to its upper-right diagonal and store the product in bArray[3]
       multiply(maxNum, array, bArray, i, j, -1, 1);
     }
   }
