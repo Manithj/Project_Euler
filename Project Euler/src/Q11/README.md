@@ -29,11 +29,11 @@ What is the greatest product of four adjacent numbers in the same direction (up,
 
 ## Answer
 
-- A function called multiply is defined, which takes the following arguments:
-    A reference to a long long variable called `maxNum`.
-    A 2D integer array called `array`.
-    An integer array called `bArray`.
-    Three integer variables called `x`, `y`, `dx`, and `dy`.
+- A function called multiply is defined, which takes the following arguments:<br>
+    A reference to a long long variable called `maxNum`.<br>
+    A 2D integer array called `array`.<br>
+    An integer array called `bArray`.<br>
+    Three integer variables called `x`, `y`, `dx`, and `dy`.<br>
 - The purpose of the `multiply` function is to multiply four numbers in a row/column/diagonal and update the maximum product and the array of numbers that produced it.
 - If the product of the four numbers is greater than the current maximum product, the `maxNum` variable is updated with the new product, and the `bArray` array is updated with the four numbers that produced the new maximum product.
 - The `lProduct` function then loops through the entire array and calls the multiply function for each row, column, and diagonal to find the maximum product of four adjacent numbers.
