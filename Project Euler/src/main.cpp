@@ -9,6 +9,7 @@
 #include "Q7/src/Q7.h"
 #include "Q8/src/Q8.h"
 #include "Q9/src/Q9.h"
+#include "Q11/src/Q11.h"
 using namespace std;
 
 int main() {
@@ -45,6 +46,9 @@ int main() {
         break;
     case 10:
         cout << primeSum();
+        break;
+    case 11:
+        cout << lProduct();
         break;
     default:
         cout << "Error";
