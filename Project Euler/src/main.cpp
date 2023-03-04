@@ -1,14 +1,14 @@
 #include <iostream>
-#include "Q1/Q1.h"
-#include "Q10/Q10.h"
-#include "Q2/Q2.h"
-#include "Q3/Q3.h"
-#include "Q4/Q4.h"
-#include "Q5/Q5.h"
-#include "Q6/Q6.h"
-#include "Q7/Q7.h"
-#include "Q8/Q8.h"
-#include "Q9/Q9.h"
+#include "Q1/src/Q1.h"
+#include "Q10/src/Q10.h"
+#include "Q2/src/Q2.h"
+#include "Q3/src/Q3.h"
+#include "Q4/src/Q4.h"
+#include "Q5/src/Q5.h"
+#include "Q6/src/Q6.h"
+#include "Q7/src/Q7.h"
+#include "Q8/src/Q8.h"
+#include "Q9/src/Q9.h"
 using namespace std;
 
 int main() {

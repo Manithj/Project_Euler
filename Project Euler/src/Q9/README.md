@@ -8,7 +8,7 @@ For example, 32 + 42 = 9 + 16 = 25 = 52.
 There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
 
-# Answer
+## Answer
 
 - `for (a = 1; a < 1000; a++)` This is a for loop that starts with a equal to 1 and increments a by 1 at each iteration until a is less than 1000.
 - `for (b = a + 1; b < 1000; b++)` This is a nested for loop that starts with b equal to `a + 1` and increments `b` by 1 at each iteration until `b` is less than 1000. The nested loop is necessary because b needs to be greater than a in order to satisfy the Pythagorean theorem.

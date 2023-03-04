@@ -4,9 +4,9 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 
-# Answer
+## Answer
 
-## step 01
+### step 01
 
 - Define a function called isPalindrome that takes an integer argument n.
 - Create a temporary variable called temp and set its value to n.
@@ -18,8 +18,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 - Divide temp by 10 to remove the last digit.
 - After the while loop completes, compare rev with the original value of n.
 
-
-## step 02
+### step 02
 
 - Define a function called largestPalindrome.
 - Create a variable called largest and initialize it to 0. This variable will hold the largest palindrome found.

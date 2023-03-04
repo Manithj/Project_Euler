@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Function to find the thirteen adjacent digits in the 1000-digit number that have the greatest product. Find the value of this product.
 int product() {
     string num_str = "73167176531330624919225119674426574742355349194934"
                      "96983520312774506326239578318016984801869478851843"
@@ -25,11 +26,14 @@ int product() {
                      "05886116467109405077541002256983155200055935729725"
                      "71636269561882670428252483600823257530420752963450";
     long long max_product = 0;
+    // i is the starting index of the 13 adjacent digits
     for (int i = 0; i < num_str.length() - 12; i++) {
         long long product = 1;
+        // j is the index of the 13 adjacent digits
         for (int j = 0; j < 13; j++) {
             product *= num_str[i + j] - '0'; // Convert char to integer
         }
+        // Check if the product is the largest product
         if (product > max_product) {
             max_product = product;
         }

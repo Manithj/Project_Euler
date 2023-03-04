@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Function to find the sum of even numbers in the fibonacci sequence
 int fibonacci() {
     int prev = 1;
     int curr = 2;
