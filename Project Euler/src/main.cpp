@@ -10,6 +10,7 @@
 #include "Q8/src/Q8.h"
 #include "Q9/src/Q9.h"
 #include "Q11/src/Q11.h"
+#include "Q12/src/Q12.h"
 using namespace std;
 
 int main() {
@@ -49,6 +50,9 @@ int main() {
         break;
     case 11:
         cout << lProduct();
+        break;
+    case 12:
+        cout << divisor();
         break;
     default:
         cout << "Error";
