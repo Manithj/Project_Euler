@@ -11,6 +11,7 @@
 #include "Q9/src/Q9.h"
 #include "Q11/src/Q11.h"
 #include "Q12/src/Q12.h"
+#include "Q14/src/Q14.h"
 using namespace std;
 
 int main() {
@@ -54,6 +55,8 @@ int main() {
     case 12:
         cout << divisor();
         break;
+    case 14:
+        cout << collatz();
     default:
         cout << "Error";
     }
