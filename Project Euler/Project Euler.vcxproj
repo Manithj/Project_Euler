@@ -22,6 +22,7 @@
     <ClCompile Include="src\Q10\src\Q10.cpp" />
     <ClCompile Include="src\Q11\src\Q11.cpp" />
     <ClCompile Include="src\Q12\src\Q12.cpp" />
+    <ClCompile Include="src\Q13\src\Q13.cpp" />
     <ClCompile Include="src\Q14\src\Q14.cpp" />
     <ClCompile Include="src\Q1\src\Q1.cpp" />
     <ClCompile Include="src\Q2\src\Q2.cpp" />
@@ -38,6 +39,7 @@
     <ClInclude Include="src\Q10\src\Q10.h" />
     <ClInclude Include="src\Q11\src\Q11.h" />
     <ClInclude Include="src\Q12\src\Q12.h" />
+    <ClInclude Include="src\Q13\src\Q13.h" />
     <ClInclude Include="src\Q14\src\Q14.h" />
     <ClInclude Include="src\Q2\src\Q2.h" />
     <ClInclude Include="src\Q1\src\Q1.h" />
