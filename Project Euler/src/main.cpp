@@ -13,6 +13,7 @@
 #include "Q12/src/Q12.h"
 #include "Q13/src/Q13.h"
 #include "Q14/src/Q14.h"
+#include "Q15/src/Q15.h"
 
 using namespace std;
 
@@ -62,6 +63,10 @@ int main() {
         break;
     case 14:
         cout << collatz();
+        break;
+    case 15:
+        cout << paths();
+        break;
     default:
         cout << "Error";
     }
